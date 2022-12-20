@@ -1,0 +1,30 @@
+{
+  "name": "tt_downloader",
+  "version": "1.0.1",
+  "description": "Library that can download videos from TikTok without watermark, using the site https://tik-tok-video.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makarasty/tt_downloader.git"
+  },
+  "keywords": [
+    "tiktok",
+    "tt-downloader",
+    "tiktok-down",
+    "tt-save",
+    "tiktok-save",
+    "save-tiktok",
+    "down-tiktok",
+    "makarasty",
+    "download-tiktok"
+  ],
+  "author": "MaKarastY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makarasty/tt_downloader/issues"
+  },
+  "homepage": "https://github.com/makarasty/tt_downloader#readme"
+}
