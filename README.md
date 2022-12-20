@@ -2,7 +2,7 @@
 
 **Nodejs** library that can download videos from **TikTok without watermark**
 
-- This is my first nqn project do not judge strictly
+- This is my first npm project do not judge strictly
 
 # Dependencies
 - NodeJs
