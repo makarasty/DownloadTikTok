@@ -6,7 +6,7 @@ module.exports.tt_downloader = url => {
 				pD = '',
 				Data = JSON.stringify({ url: url }),
 				req = request({
-					hostname: 'tik-tok-video.com', path: '/api/convert', method: 'POST',
+					hostname: 'ssstik.live', path: '/api/convert', method: 'POST',
 					headers: {
 						"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0",
 						'Content-Type': 'application/json', 'Content-Length': Data.length
