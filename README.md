@@ -21,13 +21,13 @@
 const { tt_downloader } = require("tt_downloader")
 
 const data = await tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/')
-	console.log(data)
+console.log(data)
 ```
 # example 2
 ```js
 const { tt_downloader } = require("tt_downloader")
 
 tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/').then(data => {
-		console.log(data)
+	console.log(data)
 })
 ```
