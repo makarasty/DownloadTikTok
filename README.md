@@ -24,15 +24,14 @@
 ```js
 const { tt_downloader } = require("tt_downloader")
 
-const url = 'https://vm.tiktok.com/ZMFtopdf5/'
-
-const { status, quality, duration, timestamp, source, title, video, audio, thumb, sd, hd } = await tt_downloader(url)
-console.log(status, video)
+const data = await tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/')
+	console.log(data)
 ```
 # example 2
 ```js
 const { tt_downloader } = require("tt_downloader")
 
-const data = await tt_downloader('https://vm.tiktok.com/ZMFtopdf5/')
-console.log(data)
+tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/').then(data => {
+		console.log(data)
+})
 ```
