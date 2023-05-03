@@ -1,7 +1,7 @@
 {
   "name": "tt_downloader",
   "version": "1.0.1",
-  "description": "Library that can download videos from TikTok without watermark, using the site https://tik-tok-video.com",
+  "description": "Library that can download videos from TikTok without watermark, using the site https://save-from.com/",
   "main": "index.js",
   "scripts": {
     "test": "example.js"
