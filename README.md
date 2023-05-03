@@ -8,17 +8,13 @@
 - NodeJs
 
 # Documentation
-- **timestamp** : video creation time in ms
-- **duration** : video duration 00:10
-- **quality** : quality array ['1080', '360']
-- **status** : HTTPS status
-- **source** : video source (link)
-- **title** : video title
-- **video** : video url
-- **audio** : audio url
-- **thumb** : video thumb url
-- **sd** : SD video url
-- **hd** : HD video url
+- **photos** : video or photo? false/true
+- **thumbnail** video wallpaper. link
+- **title** : video descriptions. string
+- **watermark** : video with watermark. link
+- **video** : video without a watermark. link
+- **music** : music from video. link
+- **id** : video id. numbers
 
 # example 1
 ```js
