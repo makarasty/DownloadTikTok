@@ -1,6 +1,12 @@
-main()
+const { tt_downloader } = require("./index.js") // require("tt_downloader")
+
 async function main() {
-	const { tt_downloader } = require("./index.js") // require("tt_downloader")
-	
-	console.log(await tt_downloader('https://vm.tiktok.com/ZMFtopdf5/'))
+	const data = await tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/')
+	console.log(data)
+
+	tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/').then(data => {
+		console.log(data)
+	})
 }
+
+main()
