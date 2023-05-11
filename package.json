@@ -1,6 +1,6 @@
 {
   "name": "downloadtiktok",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Nodejs library that can download videos from TikTok without watermark, using the site https://save-from.com/",
   "main": "index.js",
   "scripts": {

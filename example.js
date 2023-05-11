@@ -1,10 +1,10 @@
-const { tt_downloader } = require("./index.js") // require("tt_downloader")
+const { downloadTiktok } = require("./index.js") // require("downloadTiktok")
 
 async function main() {
-	const data = await tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/')
+	const data = await downloadTiktok('https://vm.tiktok.com/ZMYTkTEBv/')
 	console.log(data)
 
-	tt_downloader('https://vm.tiktok.com/ZMYTkTEBv/').then(data => {
+	downloadTiktok('https://vm.tiktok.com/ZMYTkTEBv/').then(data => {
 		console.log(data)
 	})
 }

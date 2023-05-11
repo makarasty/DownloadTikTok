@@ -1,6 +1,6 @@
 const { request } = require('https')
 
-module.exports.tt_downloader = (url, dataToParse = '') => new Promise((resolve, reject) => {
+module.exports.downloadTiktok = (url, dataToParse = '') => new Promise((resolve, reject) => {
 	const options = JSON.stringify({ url: url, target: 'mp4' })
 	request({
 		hostname: 'save-from.com', path: '/en/api/convert', method: 'POST', headers: {
