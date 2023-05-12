@@ -12,7 +12,7 @@ module.exports.downloadTiktok = (url, dataToParse = '') => new Promise((resolve,
 		res.on('end', function () {
 			try {
 				const { thumbnail, formats, title, id } = JSON.parse(dataToParse)
-				if (formats.length = 1) {
+				if (formats.length === 1) {
 					resolve({ photos: true, thumbnail, title, id, watermark: null, video: null, music: formats[0]?.url })
 				} else {
 					resolve({ photos: false, thumbnail, title, id, watermark: formats[0]?.url, video: formats[3]?.url, music: formats[6]?.url })
