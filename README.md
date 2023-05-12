@@ -16,6 +16,8 @@
 - **music** : music from video. link
 - **id** : video id. numbers
 
+![изображение](https://github.com/makarasty/DownloadTikTok/assets/71918286/3e0969d7-3b30-412b-8362-a82178246add)
+
 # example 1
 ```js
 const { downloadTiktok } = require("downloadTiktok")
