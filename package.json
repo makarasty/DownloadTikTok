@@ -1,6 +1,6 @@
 {
 	"name": "downloadtiktok",
-	"version": "2.0.2",
+	"version": "3.0.0",
 	"description": "Nodejs library that can download videos from TikTok without watermark, using the site https://snapdouyin.app/",
 	"main": "index.js",
 	"scripts": {
