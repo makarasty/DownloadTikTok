@@ -2,6 +2,9 @@
 
 **Nodejs** library that can download videos from **TikTok without watermark** and other formats
 
+# Install
+- `npm i downloadtiktok`
+
 # OS Dependencies
 - Node.js
 

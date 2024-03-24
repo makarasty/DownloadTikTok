@@ -1,4 +1,4 @@
-const dt = require("./index.js") // require("downloadTiktok")
+const dt = require("./index.js") // require("downloadtiktok")
 
 async function master() {
 	// Get the response from the server

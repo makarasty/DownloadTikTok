@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"strict": false,
+		"allowJs": true,
+		"checkJs": true,
+		"baseUrl": ".",
+		"module": "commonjs",
+	},
+	"exclude": ["node_modules"]
+}
