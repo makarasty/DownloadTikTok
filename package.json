@@ -1,28 +1,35 @@
 {
-  "name": "downloadtiktok",
-  "version": "2.0.1",
-  "description": "Nodejs library that can download videos from TikTok without watermark, using the site https://save-from.com/",
-  "main": "index.js",
-  "scripts": {
-    "test": "node example.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makarasty/DownloadTikTok.git"
-  },
-  "keywords": [
-    "tiktok",
-    "videoscraper",
-    "tiktokscraper",
-    "scraper",
-    "tiktokvideo",
-    "tiktokmusic",
-    "tiktokaudio"
-  ],
-  "author": "makarasty",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/makarasty/DownloadTikTok/issues"
-  },
-  "homepage": "https://github.com/makarasty/DownloadTikTok#readme"
+	"name": "downloadtiktok",
+	"version": "2.0.2",
+	"description": "Nodejs library that can download videos from TikTok without watermark, using the site https://snapdouyin.app/",
+	"main": "index.js",
+	"scripts": {
+		"test": "node example.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/makarasty/DownloadTikTok.git"
+	},
+	"keywords": [
+		"tiktok",
+		"tiktokdown",
+		"downloadtiktok",
+		"downloadfromtiktok",
+		"videoscraper",
+		"tiktokscraper",
+		"scrapfromtiktok",
+		"scraper",
+		"tiktokvideo",
+		"tiktokmusic",
+		"tiktokaudio"
+	],
+	"author": "makarasty",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/makarasty/DownloadTikTok/issues"
+	},
+	"homepage": "https://github.com/makarasty/DownloadTikTok#readme",
+	"dependencies": {
+		"undici": "^6.10.1"
+	}
 }
